@@ -1,16 +1,47 @@
 <DOCTYPE! html>
-	<html>
-
+<html>
 	<head>
-		<script src="js/script.js"></script>
+		<script src="scripts/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"></link>
+		<title>Resume</title>
 	</head>
-
 	<body>
-		<button type="button" onclick="revealMessage()">Click Here!</button>
-		<div id="hiddenMessage" style="display:none">
-			<p>You're going on a cruise</p>
-			<button type="button" id="countDownButton" onclick="countDown()">10</button>
+		<div id="outerbody">
+			<h1>Matthew Watts</h1>
+			<h2>(M) 0434 233 052</h2>
+			<h2>(E) <a href=mailto:"mattwatts875@gmail.com">mattwatts875@gmail.com</a></h2>
+			
+			<button class="toggle" onclick="hideAll()">HIDE ALL</button>
+			<button class="toggle" onclick="showAll()">SHOW ALL</button>
+
+			<button class="section-header">EXECUTIVE SUMMARY</button>
+			<div class="content">
+				<p>I am an experienced Intelligent Automation Developer with a history of working across automation, analytics and software domains. I have expertise working with Robotics Process Automation & workflow tools, and I have skills in Blue Prism, Power Platforms, Python, REST APIs, SQL, Agile delivery, Scrum, JIRA, Confluence, teamwork, and leadership.</p>
+			</div>
+			<button class="section-header">WORK EXPERIENCE</button>
+			<div class="content">
+				<p>text</p>
+			</div>
+			<button class="section-header">QUALIFICAITONS</button>
+			<div class="content">
+				<p>text</p>
+			</div>
+			<button class="section-header">EDUCATION</button>
+			<div class="content">
+				<p>text</p>
+			</div>
+			<button class="section-header">VOLUNTEERING</button>
+			<div class="content">
+				<p>text</p>
+			</div>
+			<button class="section-header">AWARDS</button>
+			<div class="content">
+				<p>text</p>
+			</div>
+			<button class="section-header">REFERENCES</button>
+			<div class="content">
+				<p>text</p>
+			</div>
 		</div>
 	</body>
-
-	</html>
+</html>
